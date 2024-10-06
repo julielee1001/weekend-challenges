@@ -14,6 +14,24 @@
 	    for(var i = 0; i < 49; i++)
 	    {
 	        // add your divs here!
+            //1. create a div 
+            //2. set the height to 60px (use .style)
+            // set width -- 100 / 7 = ~14.28% (use .style)
+            //3. make if/else statement to alternate black and red (use .style)
+            //4. append div to body
+
+            var div = document.createElement("div");
+            div.style.height = "60px";
+            div.style.width = "14.28%";
+            
+
+            if(i % 2 == 0) {
+                div.style.backgroundColor = "black";
+            } else{
+                div.style.backgroundColor = "red";
+            }
+
+            document.body.appendChild(div);
 	    }
 	</script>
 	</body>
