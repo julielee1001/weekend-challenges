@@ -1,0 +1,44 @@
+body {
+    background-color:rgb(206, 168, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#title {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.topic:hover{
+    background-color: rgb(254, 227, 138);
+}
+
+.topic {
+    width: 100%;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: rgba(255, 228, 254, 0.649);
+    border-radius: 15px;
+}
+
+.topicList {
+    display: none;
+}
+
+#personal-info {
+    display: none;
+}
+
+#info-display {
+    margin-bottom: 20px;
+    background-color: rgb(226, 193, 255);
+}
