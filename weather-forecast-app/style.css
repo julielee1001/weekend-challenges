@@ -1,0 +1,62 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin: auto;
+    margin-top: 80px;
+    border: solid 5px rgb(0, 61, 174);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    background-color: rgb(201, 215, 255);
+}
+
+#weather-info {
+    padding: 5px;
+    text-align:left;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#search {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(192, 217, 255);
+}
+
+#search:hover {
+    background-color:rgb(29, 81, 235);
+    color:white;
+}
+
+h1 {
+    color: rgb(0, 61, 174);
+}
+
+h1::after {
+    content: "\01F324";
+}
+
+ h3 {
+    margin-left: 280px;
+    color:rgb(45, 88, 205);
+ }
+
+ p {
+    margin: 0px;
+    margin-left:100px;
+ }
+
+ #error-message {
+    color:red;
+ }
